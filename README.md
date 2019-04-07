@@ -19,6 +19,7 @@
     !                                    ! Nginx Server        !                                     !
     !                                    ! Reverse Proxy       !                                     !
     !                                    ! IP: 172.28.1.2/16   !                                     !
+    !                                    ! Container: nginx    !                                     !
     !                                    ! Port: 80            !                                     !
     !                                    ! NAT: 8080           !                                     !
     !                                    +---------------------+                                     !
