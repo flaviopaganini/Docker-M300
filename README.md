@@ -52,6 +52,8 @@ Fertig
 
 Um Die Umgebung herunter zu fahren reicht ein Befehl: `docker-compose down`.
 
+#Testfälle
+
 | Service      | Testfall               | Beschreibung                                                            | Erwartetes Ergebnis                                                            | Tatsächliches Ergebnis                             |
 |--------------|------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------|
 | Proxy        | Nginx Anzeige          | Wen man auf die IP geht bekommt man eine Webseite die vom Nginx stammt. | Nginx git den Fehler 404 zurück weil er selbst keine Webseite beinhaltet.      | Nginx gibt den Fehler 404 zurück.                  |
