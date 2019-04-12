@@ -46,7 +46,7 @@ Um diese Docker Umgebung zu starten muss man gewisse vorbereitungen Treffen.
 4. 3 Ordner erstellen mit den Namen `http1`,`http2`und`http3`. 
 5. In jedes Verzeichnis mindestens eine `index.html` erstellen.
 6. Im nginx.conf die Line 7 Anpassen auf die IP des Host's auf dem die Docker Umgebung läuft, alternativ kan man hier auch einen DNS Namen eintragen der auf den Host Zeigt.
-7. Den Eigenen Container Bauen mit ``
+7. Den Eigenen Container Bauen mit `docker build -t flavio .`
 8. Mit `docker-compose up -d` die ganze Umgebung starten
 Fertig
 
