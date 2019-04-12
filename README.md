@@ -52,7 +52,7 @@ Fertig
 
 Um Die Umgebung herunter zu fahren reicht ein Befehl: `docker-compose down`.
 
-#Testfälle
+# Testfälle
 
 | Service      | Testfall               | Beschreibung                                                            | Erwartetes Ergebnis                                                            | Tatsächliches Ergebnis                             |
 |--------------|------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------|
